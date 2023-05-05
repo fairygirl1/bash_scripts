@@ -17,7 +17,7 @@ ___
 
 Для того, чтоюы сделать скрипт исполняемым рут пользователем, 
 чтобы заблокировать всем остальным доступ к ним, необходима команда
-<code>sudo chown root:root /usr/local/bin/<script_name></code>
+<br><code>sudo chown root:root /usr/local/bin/<script_name></code>
 
 Для проверки хранящихся в этой директории файлов след команда:
 
