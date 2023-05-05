@@ -7,13 +7,13 @@
 Для перемещения(команда mv) скрипта, а в моем случае, копирования скриптов 
 в директорию bin, необходима команда:
 
-# sudo cp update.sh /usr/local/bin/<script_name>
+<code>sudo cp <script_name>.sh /usr/local/bin/<script_name></code>
 
-Для того, чтоюы сделать скрипт исполняемым (да еще и только рут пользователем, 
+Для того, чтоюы сделать скрипт исполняемым рут пользователем, 
 чтобы заблокировать всем остальным доступ к ним, необходима команда
-# sudo chown root:root /usr/local/bin/<script_name>)
+<code>sudo chown root:root /usr/local/bin/<script_name></code>
 
 Для проверки хранящихся в этой директории файлов след команда:
 
-# ls -l /usr/local/bin
+<code>ls -l /usr/local/bin</code>
   
